@@ -1,16 +1,17 @@
 body {
     margin: 0;
     font-family: Lora;
-    background-color:#A7C4BC;
+    background-color: #A7C4BC;
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
+
 }
 
 .container {
-    padding: 15px;
-    margin: 5px;
+    overflow: visible;
+    padding: 60px 20px;
     border: #2F5D62 solid 5px;
     border-radius: 5%;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
@@ -26,7 +27,6 @@ body {
 .heading {
     text-align: center;
     color: #DFEEEA;
-
 }
 
 p {
@@ -62,6 +62,7 @@ p {
     color: #2F5D62;
     font-size: 25px;
 }
+
 
 
 
